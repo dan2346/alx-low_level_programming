@@ -10,20 +10,24 @@ int main(void)
 	int n;
 	int m;
 
-	for (n = 0; m = 0; n <= 9; m <= 9; n++; m++)
+	for (n = 0; n <= 9; n++)
 	{
-		if (!((n == m) || (m > n)))
+		for (m = 0; m <= 9; m++)
 		{
-			putchar(n);
-			putchar(m);
-			if (!(n == 9 && m == 8))
+			if (!((n == m) || (m > n)))
 			{
-				putchar(',');
-				putchar(' ');
-			}
+				putchar(n);
+				putchar(m);
+				if (!(n == 9 && m == 8))
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}	
+			
 		}
-		putchar('\n')
 	}
+	putchar('\n);
 
 	return (0);
 }
