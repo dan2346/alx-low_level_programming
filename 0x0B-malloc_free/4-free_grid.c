@@ -7,7 +7,7 @@
  * @grid: 2d grid
  * @height: height dimension of grid
  * Description: frees memory of grid
- * 
+ *
  * Return: nothing
  */
 
