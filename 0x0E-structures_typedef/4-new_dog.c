@@ -35,15 +35,14 @@ int _strlen(char *s)
 
 char *_strcpy(char *dest, char *src)
 {
-    int len, i;
+	int len, i;
 
 	len = 0;
 
 	while (src[len] != '\0')
 	{
 		len++;
-    }
-
+	}
 
 	for (i = 0; i < len; i++)
 	{
@@ -62,7 +61,7 @@ char *_strcpy(char *dest, char *src)
  *
  * Return: pointer to the new dog (Success), NULL otherwise
  */
-	
+
 dog_t *new_dog(char *name, float age, char *owner)
 {
 	dog_t *dog;
