@@ -108,7 +108,7 @@ int main(int argc, char *argv[])
 			a = 1;
 		if (a)
 			_putchar(result[i] + '0');
-
+		break;
 	}
 
 	if (!a)
